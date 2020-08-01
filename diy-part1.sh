@@ -18,7 +18,6 @@
 
 #!/bin/bash
 
-git clone https://github.com/maxlicheng/luci-app-ssr-plus.git package/luci-app-ssr-plus
 mkdir package/base-files/files/config
 echo 0xDEADBEEF > package/base-files/files/config/google_fu_mode
 echo "src-git helloworld https://github.com/fw876/helloworld" >> feeds.conf.default
